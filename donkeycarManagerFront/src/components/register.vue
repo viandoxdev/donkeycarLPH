@@ -34,7 +34,7 @@
 
 import DonkeycarManagerService from '@/js/service.js'
 
-const ip = 'localhost'
+const ip = DonkeycarManagerService.ip
 const srv = new DonkeycarManagerService('http://' + ip + ':8000')
 
 export default {
